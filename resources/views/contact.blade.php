@@ -10,6 +10,32 @@
   </head>
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
 
+
+  <style>
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    flex-direction:column;
+}
+body{
+    width:100%;
+    background-image: url('banner 18.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100% 100%;
+    height: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+</style>
     <!-- Example Code -->
     
         

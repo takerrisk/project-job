@@ -21,6 +21,32 @@
 </header>
 <main>
 
+
+<style>
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    flex-direction:column;
+}
+body{
+    width:100%;
+    background-image: url('banner 18.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100% 100%;
+    height: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+</style>
 <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
   <li class="nav-item" role="presentation">
     <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
